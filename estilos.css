@@ -1,0 +1,113 @@
+.container div{
+    padding: 1em;
+}
+
+.cuerpo{
+    display: grid;
+    height: auto;
+    grid-template-columns: 70% 28%;
+    gap: 1em;
+    padding: 1em;
+    
+}
+
+.cuerpo div{
+    padding: 1em;
+    
+}
+
+.cuerpo div:hover{
+    border:1px solid blue;
+}
+
+.element1{
+    background-color: aqua;
+    padding: 1em;
+    border-radius:  1px solid #0000;
+    grid-row: 1/8;
+}
+
+.element2{
+    background-color:#ffcdd2 ;
+    padding: 1em;
+    border-radius:  1px solid #0000;
+}
+
+.element3{
+    background-color:#c8e6c9 ;
+    padding: 1em;
+    border-radius:  1px solid #0000;
+}
+
+.element4{
+    background-color:#ffd54f ;
+    padding: 1em;
+    border-radius:  1px solid #0000;
+}
+
+.element5{
+    background-color:#b39ddb ;
+    padding: 1em;
+    border-radius:  1px solid #0000;
+}
+
+.element6{
+    background-color:#bdbdbd ;
+    padding: 1em;
+    border-radius:  1px solid #0000;
+}
+
+.element7{
+    background-color:#26c6da;
+    padding: 1em;
+    border-radius:  1px solid #0000;
+}
+
+.element8{
+    background-color:#ffb74d;
+    padding: 1em;
+    border-radius:  1px solid #0000;
+}
+
+.element9{
+    background-color:#80cbc4;
+    padding: 1em;
+    border-radius:  1px solid black;
+}
+
+.element10{
+    background-color:#ab47bc;
+    padding: 1em;
+    border-radius:  1px solid black;
+}
+
+.element11{
+    background-color:#f48fb1;
+    padding: 1em;
+    border-radius:  1px solid black;
+    grid-row: 10/14;
+}
+
+.element12{
+    background-color:#bcaaa4;
+    padding: 1em;
+    border-radius:  1px solid black;
+}
+
+.element13{
+    background-color:#90a4ae;
+    padding: 1em;
+    border-radius:  1px solid black;
+}
+
+.element14{
+    background-color:#90caf9;
+    padding: 1em;
+    border-radius:  1px solid black;
+}
+
+.element15{
+    background-color:#c5e1a5;
+    padding: 1em;
+    border-radius:  1px solid black;
+}
