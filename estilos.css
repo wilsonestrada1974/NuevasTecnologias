@@ -16,54 +16,70 @@
     
 }
 
-.cuerpo div:hover{
+.cuerpo > div:hover{
     border:1px solid blue;
 }
 
 .element1{
-    background-color: aqua;
+    background-color: rgb(233, 240, 240);
     padding: 1em;
-    border-radius:  1px solid #0000;
-    grid-row: 1/8;
+    border: 1px solid #0000;
+    grid-row: 1/6;
+    align-items: center;
+    text-align: center;
 }
 
 .element2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color:#ffcdd2 ;
     padding: 1em;
     border-radius:  1px solid #0000;
 }
 
 .element3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color:#c8e6c9 ;
     padding: 1em;
     border-radius:  1px solid #0000;
 }
 
 .element4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color:#ffd54f ;
     padding: 1em;
     border-radius:  1px solid #0000;
 }
 
 .element5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color:#b39ddb ;
     padding: 1em;
     border-radius:  1px solid #0000;
 }
 
 .element6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color:#bdbdbd ;
     padding: 1em;
     border-radius:  1px solid #0000;
 }
 
 .element7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color:#26c6da;
     padding: 1em;
     border-radius:  1px solid #0000;
 }
 
 .element8{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color:#ffb74d;
     padding: 1em;
     border-radius:  1px solid #0000;
@@ -73,6 +89,7 @@
     background-color:#80cbc4;
     padding: 1em;
     border-radius:  1px solid black;
+    grid-template-rows: auto;
 }
 
 .element10{
