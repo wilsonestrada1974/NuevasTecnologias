@@ -20,111 +20,44 @@
     border:1px solid blue;
 }
 
+
+.video{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: rgb(233, 240, 240);
+    padding: 1em;
+    border-radius:  1px solid #0000;
+}
+
+
+
 .element1{
     background-color: rgb(233, 240, 240);
     padding: 1em;
     border: 1px solid #0000;
-    grid-row: 1/6;
+    grid-row: 1/4;
     align-items: center;
     text-align: center;
 }
 
 .element2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color:#ffcdd2 ;
+    
+    background-color: rgb(233, 240, 240);
     padding: 1em;
-    border-radius:  1px solid #0000;
+      
+
 }
 
 .element3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color:#c8e6c9 ;
+    
+    background-color: rgb(233, 240, 240);
     padding: 1em;
-    border-radius:  1px solid #0000;
+    text-align: justify;
+    
 }
 
-.element4{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color:#ffd54f ;
-    padding: 1em;
-    border-radius:  1px solid #0000;
-}
 
-.element5{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color:#b39ddb ;
-    padding: 1em;
-    border-radius:  1px solid #0000;
-}
-
-.element6{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color:#bdbdbd ;
-    padding: 1em;
-    border-radius:  1px solid #0000;
-}
-
-.element7{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color:#26c6da;
-    padding: 1em;
-    border-radius:  1px solid #0000;
-}
-
-.element8{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color:#ffb74d;
-    padding: 1em;
-    border-radius:  1px solid #0000;
-}
-
-.element9{
-    background-color:#80cbc4;
-    padding: 1em;
-    border-radius:  1px solid black;
-    grid-template-rows: auto;
-}
-
-.element10{
-    background-color:#ab47bc;
-    padding: 1em;
-    border-radius:  1px solid black;
-}
-
-.element11{
-    background-color:#f48fb1;
-    padding: 1em;
-    border-radius:  1px solid black;
-    grid-row: 10/14;
-}
-
-.element12{
-    background-color:#bcaaa4;
-    padding: 1em;
-    border-radius:  1px solid black;
-}
-
-.element13{
-    background-color:#90a4ae;
-    padding: 1em;
-    border-radius:  1px solid black;
-}
-
-.element14{
-    background-color:#90caf9;
-    padding: 1em;
-    border-radius:  1px solid black;
-}
-
-.element15{
-    background-color:#c5e1a5;
-    padding: 1em;
-    border-radius:  1px solid black;
+.texto{
+    margin-left: 1em;
+    text-align: justify;
 }
